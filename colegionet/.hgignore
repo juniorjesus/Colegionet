@@ -1,0 +1,3 @@
+syntax: glob
+application/logs/
+application/libraries/dompdf/lib/fonts/log.htm

@@ -1,0 +1,158 @@
+body,html{
+  height: 100%;
+}
+body{
+  /*text-align: center;*/
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+table{
+  border-bottom: 10px;
+  width: 100%;
+}
+a:hover,a:focus{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+textarea{
+  resize: none;
+}
+.blocked:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  cursor: not-allowed;
+  top: 0;
+  left: 0;
+}
+.noticias{
+  margin-bottom: 20px;
+  background-color: rgba(255,255,255,0.3);
+  padding:15px;
+  box-shadow: 7px 7px 12px;
+  transition: 0.5s;
+}
+.noticias:hover{
+  transform: scale(1.1);
+}
+.relative{
+  position: relative;
+}
+.myheader{
+  padding-top: 60px;
+}
+.mybody{
+  padding: 10px;
+  height: 100%;
+  margin-bottom: 20px;
+  /*background-color: rgba(245,245,245,0.2);*/
+}
+.mybody:before{
+  content: '';
+  position: absolute;
+  background-color: rgba(250,250,250,0.7);
+  filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.form_error{
+  font-size: 9pt;
+  color: red;
+  margin: 0;
+}
+.tittle{
+  position: absolute;
+  top: -20px;
+  color: #337ab7;
+}
+.nav-tabs li.active a{
+  cursor: pointer!important;
+}
+.breadcrumb .active a {
+  text-decoration: none;
+  color: inherit;
+}
+.breadcrumb a {
+  text-decoration: none;
+}
+.boxes{
+  /*background-image: url('../img/back-1.jpg');*/
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-size: cover;
+}
+
+.pleasewait{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1050;
+  top: 0;
+  font-size: 12em;
+  color: rgba(255,0,18,0.8);
+  background-color:rgba(0,0,0,0.5);
+}
+.messagetitle{
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 44%;
+  width: 100%;
+  font-weight: bold;
+}
+
+#info{
+  z-index:1031;
+  position: fixed;
+  top: 10px;
+  left: 4.16%;
+  padding: 10px 15px!important;
+}
+.fullscreen{
+/*  display: flex;*/
+/*  width: 100%; */
+  height: 100%;
+}
+/*
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+*/
+.mymenu .list-group-item a{
+  display: block;
+}
+.inline{
+  display: inline-block;
+  float: none;
+  margin-right: -4px;
+}
+
+.required{
+  color: red;
+}
+
+.no-padding{
+  padding: 0;
+}
